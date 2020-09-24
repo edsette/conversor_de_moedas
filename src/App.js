@@ -6,7 +6,28 @@ import Conversor from './componets/Conversor'
 function App() {
   return (
     <div className="App">
-      <Conversor moedaA='USD' moedaB='BRL'></Conversor>
+      <div className='conversor'>
+        
+        <Conversor moedaA='USD' moedaB='BRL'></Conversor>
+      
+      </div>
+      <div className='conversor'>
+
+        <Conversor moedaA='EUR' moedaB='BRL'></Conversor>
+      
+      </div>
+
+      <div className='conversor'>
+
+        <Conversor moedaA='BRL' moedaB='USD'></Conversor>
+
+      </div>
+
+      <div className='conversor'>
+
+        <Conversor moedaA='BRL' moedaB='EUR'></Conversor>
+
+      </div>
     </div>
   );
 }
